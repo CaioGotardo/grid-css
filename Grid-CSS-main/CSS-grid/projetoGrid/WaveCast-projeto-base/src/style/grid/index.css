@@ -1,0 +1,16 @@
+body{
+    display:grid;
+    grid-template-areas: "aside header""aside main";/* Layout com "aside" à esquerda, "header" no topo e "main" à direita em duas linhas */
+    grid-template-columns: auto 1fr; /* Define a largura das colunas do grid para se ajustar automaticamente ao conteúdo */
+
+}
+
+.cabecalho{
+    grid-area: header;
+}
+.menu-lateral{
+    grid-area: aside;
+}
+.principal{
+    grid-area:main;
+}

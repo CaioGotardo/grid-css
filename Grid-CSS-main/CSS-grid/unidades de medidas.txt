@@ -1,0 +1,7 @@
+% = ela permite que os elementos ocupem uma porcentagem da largura ou altura do elemento pai; Por exemplo se o width esta 50% ela ocupara 50% da lartgura do container da tag pai 
+
+1vw  = 1% de largura da viewport; ou seja caso o navegador abra o site no celular ele ocupara 1% da largura ou caso ele abrir no computer ele tambem ocupara 1% da largura 
+1vh = 1% de altura da viewport; ou seja caso o navegador abra o site no celular ele ocupara 1% da altura ou caso ele abrir no computer ele tambem ocupara 1% da altura
+
+rem = é relativo ao tamanho da fonte do elemento raiz 
+em = é relativo ao tamanho da fonte do container pai  
